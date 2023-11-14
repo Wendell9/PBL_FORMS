@@ -1,0 +1,149 @@
+D:\FESA\3° Semestre\Projeto Interdisciplinar\PBL Oficial\PBL Oficial\bin\Debug\net6.0-windows\PBL Oficial.exe
+D:\FESA\3° Semestre\Projeto Interdisciplinar\PBL Oficial\PBL Oficial\bin\Debug\net6.0-windows\PBL Oficial.deps.json
+D:\FESA\3° Semestre\Projeto Interdisciplinar\PBL Oficial\PBL Oficial\bin\Debug\net6.0-windows\PBL Oficial.runtimeconfig.json
+D:\FESA\3° Semestre\Projeto Interdisciplinar\PBL Oficial\PBL Oficial\bin\Debug\net6.0-windows\PBL Oficial.dll
+D:\FESA\3° Semestre\Projeto Interdisciplinar\PBL Oficial\PBL Oficial\bin\Debug\net6.0-windows\PBL Oficial.pdb
+D:\FESA\3° Semestre\Projeto Interdisciplinar\PBL Oficial\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial.csproj.AssemblyReference.cache
+D:\FESA\3° Semestre\Projeto Interdisciplinar\PBL Oficial\PBL Oficial\obj\Debug\net6.0-windows\MainWindow.g.cs
+D:\FESA\3° Semestre\Projeto Interdisciplinar\PBL Oficial\PBL Oficial\obj\Debug\net6.0-windows\App.g.cs
+D:\FESA\3° Semestre\Projeto Interdisciplinar\PBL Oficial\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial_MarkupCompile.cache
+D:\FESA\3° Semestre\Projeto Interdisciplinar\PBL Oficial\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial_MarkupCompile.lref
+D:\FESA\3° Semestre\Projeto Interdisciplinar\PBL Oficial\PBL Oficial\obj\Debug\net6.0-windows\MainWindow.baml
+D:\FESA\3° Semestre\Projeto Interdisciplinar\PBL Oficial\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial.g.resources
+D:\FESA\3° Semestre\Projeto Interdisciplinar\PBL Oficial\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial.GeneratedMSBuildEditorConfig.editorconfig
+D:\FESA\3° Semestre\Projeto Interdisciplinar\PBL Oficial\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial.AssemblyInfoInputs.cache
+D:\FESA\3° Semestre\Projeto Interdisciplinar\PBL Oficial\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial.AssemblyInfo.cs
+D:\FESA\3° Semestre\Projeto Interdisciplinar\PBL Oficial\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial.csproj.CoreCompileInputs.cache
+D:\FESA\3° Semestre\Projeto Interdisciplinar\PBL Oficial\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial.dll
+D:\FESA\3° Semestre\Projeto Interdisciplinar\PBL Oficial\PBL Oficial\obj\Debug\net6.0-windows\refint\PBL Oficial.dll
+D:\FESA\3° Semestre\Projeto Interdisciplinar\PBL Oficial\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial.pdb
+D:\FESA\3° Semestre\Projeto Interdisciplinar\PBL Oficial\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial.genruntimeconfig.cache
+D:\FESA\3° Semestre\Projeto Interdisciplinar\PBL Oficial\PBL Oficial\obj\Debug\net6.0-windows\ref\PBL Oficial.dll
+D:\FESA\3° Semestre\Projeto Interdisciplinar\PBL Oficial\PBL Oficial\obj\Debug\net6.0-windows\Canhao.g.cs
+D:\FESA\3° Semestre\Projeto Interdisciplinar\PBL Oficial\PBL Oficial\obj\Debug\net6.0-windows\Canhao.baml
+D:\FESA\3° Semestre\Projeto Interdisciplinar\PBL Oficial\PBL Oficial\obj\Debug\net6.0-windows\Angulo.g.cs
+D:\FESA\3° Semestre\Projeto Interdisciplinar\PBL Oficial\PBL Oficial\obj\Debug\net6.0-windows\Angulo.baml
+C:\Users\guilh\Downloads\PBL_FORMS-main\PBL_FORMS-main\PBL Oficial\bin\Debug\net6.0-windows\PBL Oficial.exe
+C:\Users\guilh\Downloads\PBL_FORMS-main\PBL_FORMS-main\PBL Oficial\bin\Debug\net6.0-windows\PBL Oficial.deps.json
+C:\Users\guilh\Downloads\PBL_FORMS-main\PBL_FORMS-main\PBL Oficial\bin\Debug\net6.0-windows\PBL Oficial.runtimeconfig.json
+C:\Users\guilh\Downloads\PBL_FORMS-main\PBL_FORMS-main\PBL Oficial\bin\Debug\net6.0-windows\PBL Oficial.dll
+C:\Users\guilh\Downloads\PBL_FORMS-main\PBL_FORMS-main\PBL Oficial\bin\Debug\net6.0-windows\PBL Oficial.pdb
+C:\Users\guilh\Downloads\PBL_FORMS-main\PBL_FORMS-main\PBL Oficial\bin\Debug\net6.0-windows\OxyPlot.dll
+C:\Users\guilh\Downloads\PBL_FORMS-main\PBL_FORMS-main\PBL Oficial\bin\Debug\net6.0-windows\OxyPlot.Wpf.dll
+C:\Users\guilh\Downloads\PBL_FORMS-main\PBL_FORMS-main\PBL Oficial\bin\Debug\net6.0-windows\OxyPlot.Wpf.Shared.dll
+C:\Users\guilh\Downloads\PBL_FORMS-main\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial.csproj.AssemblyReference.cache
+C:\Users\guilh\Downloads\PBL_FORMS-main\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\Angulo.g.cs
+C:\Users\guilh\Downloads\PBL_FORMS-main\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\Animacao.g.cs
+C:\Users\guilh\Downloads\PBL_FORMS-main\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\Canhao.g.cs
+C:\Users\guilh\Downloads\PBL_FORMS-main\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\guilh\Downloads\PBL_FORMS-main\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\guilh\Downloads\PBL_FORMS-main\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial_MarkupCompile.cache
+C:\Users\guilh\Downloads\PBL_FORMS-main\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial_MarkupCompile.lref
+C:\Users\guilh\Downloads\PBL_FORMS-main\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\Angulo.baml
+C:\Users\guilh\Downloads\PBL_FORMS-main\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\Animacao.baml
+C:\Users\guilh\Downloads\PBL_FORMS-main\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\Canhao.baml
+C:\Users\guilh\Downloads\PBL_FORMS-main\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\guilh\Downloads\PBL_FORMS-main\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial.g.resources
+C:\Users\guilh\Downloads\PBL_FORMS-main\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guilh\Downloads\PBL_FORMS-main\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial.AssemblyInfoInputs.cache
+C:\Users\guilh\Downloads\PBL_FORMS-main\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial.AssemblyInfo.cs
+C:\Users\guilh\Downloads\PBL_FORMS-main\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial.csproj.CoreCompileInputs.cache
+C:\Users\guilh\Downloads\PBL_FORMS-main\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial.csproj.CopyComplete
+C:\Users\guilh\Downloads\PBL_FORMS-main\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial.dll
+C:\Users\guilh\Downloads\PBL_FORMS-main\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\refint\PBL Oficial.dll
+C:\Users\guilh\Downloads\PBL_FORMS-main\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial.pdb
+C:\Users\guilh\Downloads\PBL_FORMS-main\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial.genruntimeconfig.cache
+C:\Users\guilh\Downloads\PBL_FORMS-main\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\ref\PBL Oficial.dll
+C:\Users\guilh\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\bin\Debug\net6.0-windows\PBL Oficial.exe
+C:\Users\guilh\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\bin\Debug\net6.0-windows\PBL Oficial.deps.json
+C:\Users\guilh\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\bin\Debug\net6.0-windows\PBL Oficial.runtimeconfig.json
+C:\Users\guilh\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\bin\Debug\net6.0-windows\PBL Oficial.dll
+C:\Users\guilh\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\bin\Debug\net6.0-windows\PBL Oficial.pdb
+C:\Users\guilh\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\bin\Debug\net6.0-windows\OxyPlot.dll
+C:\Users\guilh\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\bin\Debug\net6.0-windows\OxyPlot.Wpf.dll
+C:\Users\guilh\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\bin\Debug\net6.0-windows\OxyPlot.Wpf.Shared.dll
+C:\Users\guilh\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial.csproj.AssemblyReference.cache
+C:\Users\guilh\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\Angulo.g.cs
+C:\Users\guilh\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\Animacao.g.cs
+C:\Users\guilh\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\Canhao.g.cs
+C:\Users\guilh\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\guilh\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\guilh\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial_MarkupCompile.cache
+C:\Users\guilh\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial_MarkupCompile.lref
+C:\Users\guilh\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\Angulo.baml
+C:\Users\guilh\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\Animacao.baml
+C:\Users\guilh\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\Canhao.baml
+C:\Users\guilh\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\guilh\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial.g.resources
+C:\Users\guilh\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guilh\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial.AssemblyInfoInputs.cache
+C:\Users\guilh\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial.AssemblyInfo.cs
+C:\Users\guilh\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial.csproj.CoreCompileInputs.cache
+C:\Users\guilh\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial.csproj.CopyComplete
+C:\Users\guilh\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial.dll
+C:\Users\guilh\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\refint\PBL Oficial.dll
+C:\Users\guilh\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial.pdb
+C:\Users\guilh\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial.genruntimeconfig.cache
+C:\Users\guilh\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\ref\PBL Oficial.dll
+C:\Users\guind\Downloads\PBL-main\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\bin\Debug\net6.0-windows\PBL Oficial.exe
+C:\Users\guind\Downloads\PBL-main\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\bin\Debug\net6.0-windows\PBL Oficial.deps.json
+C:\Users\guind\Downloads\PBL-main\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\bin\Debug\net6.0-windows\PBL Oficial.runtimeconfig.json
+C:\Users\guind\Downloads\PBL-main\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\bin\Debug\net6.0-windows\PBL Oficial.dll
+C:\Users\guind\Downloads\PBL-main\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\bin\Debug\net6.0-windows\PBL Oficial.pdb
+C:\Users\guind\Downloads\PBL-main\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\bin\Debug\net6.0-windows\OxyPlot.dll
+C:\Users\guind\Downloads\PBL-main\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\bin\Debug\net6.0-windows\OxyPlot.Wpf.dll
+C:\Users\guind\Downloads\PBL-main\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\bin\Debug\net6.0-windows\OxyPlot.Wpf.Shared.dll
+C:\Users\guind\Downloads\PBL-main\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial.csproj.AssemblyReference.cache
+C:\Users\guind\Downloads\PBL-main\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\Angulo.g.cs
+C:\Users\guind\Downloads\PBL-main\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\Animacao.g.cs
+C:\Users\guind\Downloads\PBL-main\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\Canhao.g.cs
+C:\Users\guind\Downloads\PBL-main\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\guind\Downloads\PBL-main\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\guind\Downloads\PBL-main\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial_MarkupCompile.cache
+C:\Users\guind\Downloads\PBL-main\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial_MarkupCompile.lref
+C:\Users\guind\Downloads\PBL-main\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\Angulo.baml
+C:\Users\guind\Downloads\PBL-main\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\Animacao.baml
+C:\Users\guind\Downloads\PBL-main\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\Canhao.baml
+C:\Users\guind\Downloads\PBL-main\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\guind\Downloads\PBL-main\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial.g.resources
+C:\Users\guind\Downloads\PBL-main\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guind\Downloads\PBL-main\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial.AssemblyInfoInputs.cache
+C:\Users\guind\Downloads\PBL-main\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial.AssemblyInfo.cs
+C:\Users\guind\Downloads\PBL-main\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial.csproj.CoreCompileInputs.cache
+C:\Users\guind\Downloads\PBL-main\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial.csproj.CopyComplete
+C:\Users\guind\Downloads\PBL-main\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial.dll
+C:\Users\guind\Downloads\PBL-main\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\refint\PBL Oficial.dll
+C:\Users\guind\Downloads\PBL-main\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial.pdb
+C:\Users\guind\Downloads\PBL-main\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial.genruntimeconfig.cache
+C:\Users\guind\Downloads\PBL-main\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\ref\PBL Oficial.dll
+C:\Users\guind\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\bin\Debug\net6.0-windows\PBL Oficial.exe
+C:\Users\guind\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\bin\Debug\net6.0-windows\PBL Oficial.deps.json
+C:\Users\guind\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\bin\Debug\net6.0-windows\PBL Oficial.runtimeconfig.json
+C:\Users\guind\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\bin\Debug\net6.0-windows\PBL Oficial.dll
+C:\Users\guind\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\bin\Debug\net6.0-windows\PBL Oficial.pdb
+C:\Users\guind\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\bin\Debug\net6.0-windows\OxyPlot.dll
+C:\Users\guind\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\bin\Debug\net6.0-windows\OxyPlot.Wpf.dll
+C:\Users\guind\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\bin\Debug\net6.0-windows\OxyPlot.Wpf.Shared.dll
+C:\Users\guind\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial.csproj.AssemblyReference.cache
+C:\Users\guind\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\Angulo.g.cs
+C:\Users\guind\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\Animacao.g.cs
+C:\Users\guind\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\Canhao.g.cs
+C:\Users\guind\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\guind\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\guind\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial_MarkupCompile.cache
+C:\Users\guind\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial_MarkupCompile.lref
+C:\Users\guind\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\Angulo.baml
+C:\Users\guind\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\Animacao.baml
+C:\Users\guind\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\Canhao.baml
+C:\Users\guind\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\guind\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial.g.resources
+C:\Users\guind\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guind\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial.AssemblyInfoInputs.cache
+C:\Users\guind\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial.AssemblyInfo.cs
+C:\Users\guind\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial.csproj.CoreCompileInputs.cache
+C:\Users\guind\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial.csproj.CopyComplete
+C:\Users\guind\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial.dll
+C:\Users\guind\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\refint\PBL Oficial.dll
+C:\Users\guind\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial.pdb
+C:\Users\guind\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial.genruntimeconfig.cache
+C:\Users\guind\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\ref\PBL Oficial.dll

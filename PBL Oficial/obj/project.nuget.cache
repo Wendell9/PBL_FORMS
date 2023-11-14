@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "6N934D9nPTQjyputeQWBFj5MMV1Roe7JLOoBSeNQR4mE4s9xRt8EHoSu4e3PNa9gVaGT1tqKshw6DCQvk5q+uQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\guind\\Downloads\\PBL_FORMS-main - Copia\\PBL_FORMS-main\\PBL Oficial\\PBL Oficial.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\guind\\.nuget\\packages\\oxyplot.core\\2.1.2\\oxyplot.core.2.1.2.nupkg.sha512",
+    "C:\\Users\\guind\\.nuget\\packages\\oxyplot.wpf\\2.1.2\\oxyplot.wpf.2.1.2.nupkg.sha512",
+    "C:\\Users\\guind\\.nuget\\packages\\oxyplot.wpf.shared\\2.1.2\\oxyplot.wpf.shared.2.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
