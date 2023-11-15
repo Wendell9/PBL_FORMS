@@ -147,3 +147,42 @@ C:\Users\guind\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\D
 C:\Users\guind\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial.pdb
 C:\Users\guind\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial.genruntimeconfig.cache
 C:\Users\guind\Downloads\PBL_FORMS-main - Copia\PBL_FORMS-main\PBL Oficial\obj\Debug\net6.0-windows\ref\PBL Oficial.dll
+C:\Users\guind\Downloads\PBL_FORMS\PBL Oficial\bin\Debug\net6.0-windows\PBL Oficial.exe
+C:\Users\guind\Downloads\PBL_FORMS\PBL Oficial\bin\Debug\net6.0-windows\PBL Oficial.deps.json
+C:\Users\guind\Downloads\PBL_FORMS\PBL Oficial\bin\Debug\net6.0-windows\PBL Oficial.runtimeconfig.json
+C:\Users\guind\Downloads\PBL_FORMS\PBL Oficial\bin\Debug\net6.0-windows\PBL Oficial.dll
+C:\Users\guind\Downloads\PBL_FORMS\PBL Oficial\bin\Debug\net6.0-windows\PBL Oficial.pdb
+C:\Users\guind\Downloads\PBL_FORMS\PBL Oficial\bin\Debug\net6.0-windows\OxyPlot.dll
+C:\Users\guind\Downloads\PBL_FORMS\PBL Oficial\bin\Debug\net6.0-windows\OxyPlot.Wpf.dll
+C:\Users\guind\Downloads\PBL_FORMS\PBL Oficial\bin\Debug\net6.0-windows\OxyPlot.Wpf.Shared.dll
+C:\Users\guind\Downloads\PBL_FORMS\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial.csproj.AssemblyReference.cache
+C:\Users\guind\Downloads\PBL_FORMS\PBL Oficial\obj\Debug\net6.0-windows\Angulo.g.cs
+C:\Users\guind\Downloads\PBL_FORMS\PBL Oficial\obj\Debug\net6.0-windows\Animacao.g.cs
+C:\Users\guind\Downloads\PBL_FORMS\PBL Oficial\obj\Debug\net6.0-windows\Canhao.g.cs
+C:\Users\guind\Downloads\PBL_FORMS\PBL Oficial\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\guind\Downloads\PBL_FORMS\PBL Oficial\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\guind\Downloads\PBL_FORMS\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial_MarkupCompile.cache
+C:\Users\guind\Downloads\PBL_FORMS\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial_MarkupCompile.lref
+C:\Users\guind\Downloads\PBL_FORMS\PBL Oficial\obj\Debug\net6.0-windows\Angulo.baml
+C:\Users\guind\Downloads\PBL_FORMS\PBL Oficial\obj\Debug\net6.0-windows\Animacao.baml
+C:\Users\guind\Downloads\PBL_FORMS\PBL Oficial\obj\Debug\net6.0-windows\Canhao.baml
+C:\Users\guind\Downloads\PBL_FORMS\PBL Oficial\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\guind\Downloads\PBL_FORMS\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial.g.resources
+C:\Users\guind\Downloads\PBL_FORMS\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guind\Downloads\PBL_FORMS\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial.AssemblyInfoInputs.cache
+C:\Users\guind\Downloads\PBL_FORMS\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial.AssemblyInfo.cs
+C:\Users\guind\Downloads\PBL_FORMS\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial.csproj.CoreCompileInputs.cache
+C:\Users\guind\Downloads\PBL_FORMS\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial.csproj.CopyComplete
+C:\Users\guind\Downloads\PBL_FORMS\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial.dll
+C:\Users\guind\Downloads\PBL_FORMS\PBL Oficial\obj\Debug\net6.0-windows\refint\PBL Oficial.dll
+C:\Users\guind\Downloads\PBL_FORMS\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial.pdb
+C:\Users\guind\Downloads\PBL_FORMS\PBL Oficial\obj\Debug\net6.0-windows\PBL Oficial.genruntimeconfig.cache
+C:\Users\guind\Downloads\PBL_FORMS\PBL Oficial\obj\Debug\net6.0-windows\ref\PBL Oficial.dll
+C:\Users\guind\Downloads\PBL_FORMS\PBL Oficial\obj\Debug\net6.0-windows\Acerto.g.cs
+C:\Users\guind\Downloads\PBL_FORMS\PBL Oficial\obj\Debug\net6.0-windows\Acerto.baml
+C:\Users\guind\Downloads\PBL_FORMS\PBL Oficial\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\guind\Downloads\PBL_FORMS\PBL Oficial\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\guind\Downloads\PBL_FORMS\PBL Oficial\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\guind\Downloads\PBL_FORMS\PBL Oficial\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\guind\Downloads\PBL_FORMS\PBL Oficial\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\guind\Downloads\PBL_FORMS\PBL Oficial\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

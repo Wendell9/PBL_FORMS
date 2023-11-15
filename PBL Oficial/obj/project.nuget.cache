@@ -1,12 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "6N934D9nPTQjyputeQWBFj5MMV1Roe7JLOoBSeNQR4mE4s9xRt8EHoSu4e3PNa9gVaGT1tqKshw6DCQvk5q+uQ==",
+  "dgSpecHash": "j6c9z5Z3Oiu2BRhE4Obk4orzDzJu31gP2MRv7Olkx4beeBXIjCJm0jaqtDWD+oiqUAhkyZ/HduuQN15R8grbRg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\guind\\Downloads\\PBL_FORMS-main - Copia\\PBL_FORMS-main\\PBL Oficial\\PBL Oficial.csproj",
+  "projectFilePath": "C:\\Users\\guind\\Downloads\\PBL_FORMS\\PBL Oficial\\PBL Oficial.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\guind\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\guind\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\guind\\.nuget\\packages\\oxyplot.core\\2.1.2\\oxyplot.core.2.1.2.nupkg.sha512",
     "C:\\Users\\guind\\.nuget\\packages\\oxyplot.wpf\\2.1.2\\oxyplot.wpf.2.1.2.nupkg.sha512",
-    "C:\\Users\\guind\\.nuget\\packages\\oxyplot.wpf.shared\\2.1.2\\oxyplot.wpf.shared.2.1.2.nupkg.sha512"
+    "C:\\Users\\guind\\.nuget\\packages\\oxyplot.wpf.shared\\2.1.2\\oxyplot.wpf.shared.2.1.2.nupkg.sha512",
+    "C:\\Users\\guind\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
+    "C:\\Users\\guind\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\guind\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\guind\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\guind\\.nuget\\packages\\system.data.sqlclient\\4.8.5\\system.data.sqlclient.4.8.5.nupkg.sha512",
+    "C:\\Users\\guind\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\guind\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }

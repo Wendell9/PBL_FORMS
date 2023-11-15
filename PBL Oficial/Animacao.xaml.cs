@@ -104,10 +104,34 @@ namespace PBL_Oficial
             // Associar o modelo ao plotView (Local onde o gráfico será gerado)
             plotView.Model = model;
 
+            Projetil = new Projetil(vo, angulo);
+            Acerto a = new Acerto(Projetil, alturaImpacto, tempo,this,DistanciaCanhao,angulo);
 
-            AnimateProjectile(tempo,alturaMeteoro,alturaImpacto,DistanciaCanhao);
-            AnimateBall(tempo,alturaMeteoro,alturaImpacto);
+            Executa_Animacao(tempo,alturaMeteoro,alturaImpacto,DistanciaCanhao,Projetil,a);
 
+
+        }
+
+        private async void Executa_Animacao(double tempo, double alturaMeteoro, double alturaImpacto, double DistanciaCanhao,Projetil p,Acerto a)
+        {
+            AnimateProjectile(tempo, alturaMeteoro, alturaImpacto, DistanciaCanhao);
+            AnimateBall(tempo, alturaMeteoro, alturaImpacto);
+            await AbrirJanela(Projetil, a, tempo);
+
+            a.Closing += JanelaSecundariaClosing;
+        }
+
+        private void JanelaSecundariaClosing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            // Fecha a JanelaPrincipal quando a JanelaSecundaria for fechada
+            this.Close();
+        }
+
+        private async Task AbrirJanela(Projetil p,Acerto a,double tempo)
+        {
+            int tempoInt = (int)tempo;
+            await Task.Delay(1000*(tempoInt));
+            a.Show();
         }
 
         private async void AnimateProjectile(double tempo, double alturaMeteoro, double alturaImpacto, double DistanciaCanhao)
@@ -187,8 +211,8 @@ namespace PBL_Oficial
                 timerAnnotation.Text = $"Tempo: {tempo.ToString("F2")}s";
                 Dispatcher.Invoke(() => plotView.InvalidatePlot());
                 await Task.Delay(16);     
-
         }
+
     }
 }
     

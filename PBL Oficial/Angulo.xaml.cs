@@ -78,7 +78,7 @@ namespace PBL_Oficial
 
             if (Math.Abs(alturaMet - alturaProj) < 1 && tempo > 0 && alturaMet > 0)
             {
-                MessageBox.Show($"O alvo foi acertado no ponto {alturaProj}, no instante {tempo} com velocidade inicial igual a {vo}");
+                MessageBox.Show($"O alvo foi acertado na altura {alturaProj}, no instante {tempo} com velocidade inicial igual a {vo}");
                 Animacao animacao = new Animacao(tempo, Meteoro1.AlturaInicial, alturaMet, Meteoro1.DistanciaDoCanhao, vo, angulo);
                 animacao.Show();
                 this.Close();
@@ -124,12 +124,12 @@ namespace PBL_Oficial
                         break;
                     }
                 }
+                contaerros = 0;
                 for (int i = rangeDoAngulo[0] + 1; i < 90; i++)
                 {
                     angulo = i;
                     Projetil1 = new Projetil(angulo, 0);
                     vetorResposta = Calculadora.calculoVo(angulo, Meteoro1, Projetil1, true);
-                    contaerros = 0;
 
                     alturaMet = vetorResposta[0];
                     alturaProj = vetorResposta[1];
@@ -155,7 +155,8 @@ namespace PBL_Oficial
 
                     if (contaerros == 2)
                     {
-                        rangeDoAngulo[1] = i-1;
+                        rangeDoAngulo[1] = i;
+                        break;
                     }
                     else if (i == 89)
                     {

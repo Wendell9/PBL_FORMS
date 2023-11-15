@@ -1,0 +1,19 @@
+﻿<Window x:Class="PBL_Oficial.Acerto"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PBL_Oficial"
+        mc:Ignorable="d"
+        Title="Acerto" Height="260" Width="442">
+    <Grid>
+        <Label x:Name="VelocidadeInicial" Content="Label" HorizontalAlignment="Left" Margin="94,54,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Titulo" Content="Dados do Acerto" HorizontalAlignment="Center" Margin="0,15,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="18"/>
+        <Label Name="Altura_intercepta" Content="Label" HorizontalAlignment="Left" Margin="94,85,0,0" VerticalAlignment="Top"/>
+        <Label Name="Ponto_Do_Movimeto" Content="Label" HorizontalAlignment="Left" Margin="94,116,0,0" VerticalAlignment="Top"/>
+        <Button Content="Tentar Novamente" HorizontalAlignment="Center" Margin="0,153,0,0" VerticalAlignment="Top" Height="29" Width="111" Click="Button_Click"/>
+
+    </Grid>
+
+
+</Window>
