@@ -7,10 +7,12 @@
         mc:Ignorable="d"
         Title="Angulo" Height="450" Width="800">
     <Grid>
-        <Label Content="Ângulo de inclinação" HorizontalAlignment="Center" Margin="0,82,0,0" VerticalAlignment="Top" Height="77" Width="486" FontSize="48" FontWeight="Bold"/>
+        <Image Height="473" Width="1008" Source="/885542.png" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+
+        <Label Content="Ângulo de inclinação" HorizontalAlignment="Center" Margin="0,82,0,0" VerticalAlignment="Top" Height="77" Width="486" FontSize="48" FontWeight="Bold" Foreground="#FFFF00DE"/>
         <TextBox x:Name="TEXTBOXANGULO" HorizontalAlignment="Left" Margin="271,177,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="169" Height="39" TextChanged="TextBox_TextChanged"/>
         <Button Content="Calcular" HorizontalAlignment="Left" Margin="385,243,0,0" VerticalAlignment="Top" Height="44" Width="89" Click="Button_Click_1"/>
-        <Label x:Name="Label_Velocidade" Content="Label" HorizontalAlignment="Left" Margin="490,184,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Label_Velocidade" Content="Label" HorizontalAlignment="Left" Margin="490,184,0,0" VerticalAlignment="Top" Foreground="#FF00FFED"/>
         <Button Content="Voltar" HorizontalAlignment="Left" Margin="266,243,0,0" VerticalAlignment="Top" Height="44" Width="90" Click="Button_Click_2"/>
 
     </Grid>

@@ -7,7 +7,9 @@
         mc:Ignorable="d"
         Title="Canhao" Height="450" Width="800">
     <Grid>
-        <Label Content="Canhão" HorizontalAlignment="Center" Margin="0,50,0,0" VerticalAlignment="Top" Width="116" FontSize="30" FontWeight="Bold"/>
+        <Image Height="473" Width="1008" Source="/885542.png" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+
+        <Label Content="Canhão" HorizontalAlignment="Center" Margin="0,50,0,0" VerticalAlignment="Top" Width="116" FontSize="30" FontWeight="Bold" Foreground="#FFFF00DE" />
         <Button Content="1000" HorizontalAlignment="Center" Margin="0,115,0,0" VerticalAlignment="Top" Height="46" Width="100" Click="Button_Click"/>
         <Button Content="750" HorizontalAlignment="Center" Margin="0,187,0,0" VerticalAlignment="Top" Height="49" Width="100" Click="Button_Click_1"/>
         <Button Content="500" HorizontalAlignment="Center" Margin="0,266,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.072,0.255" Height="46" Width="100" Click="Button_Click_2"/>

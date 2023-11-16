@@ -132,7 +132,7 @@ namespace PBL_Oficial
         private async Task AbrirJanela(Projetil p, Acerto a, double tempo)
         {
             int tempoInt = (int)tempo;
-            await Task.Delay(1000 * (tempoInt));
+            await Task.Delay(1000 * (tempoInt)+1500);
             a.Show();
         }
 

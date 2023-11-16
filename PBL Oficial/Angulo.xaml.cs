@@ -25,7 +25,7 @@ namespace PBL_Oficial
         {
             InitializeComponent();
             Meteoro1 = new Meteoro(Distancia, AlturaMeteoro);
-            string velocidade = $"A velocidade do meteoro é igual a {Meteoro1.Vm}";
+            string velocidade = $"A velocidade do meteoro é igual a {Meteoro1.Vm}m/s";
             Label_Velocidade.Content = velocidade;
         }
 

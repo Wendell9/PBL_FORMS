@@ -7,8 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Image Name="Fundo" HorizontalAlignment="Left" Height="473" VerticalAlignment="Top" Width="1008" Source="/885542.png" Margin="-30,-14,0,0"/>
+
         <Button Content="4000" HorizontalAlignment="Center" Margin="0,111,0,0" VerticalAlignment="Top" Click="Button_Click" Height="41" Width="128"/>
-        <Label Content="    Altura do Meteoro" HorizontalAlignment="Center" Margin="0,47,0,0" VerticalAlignment="Top" Width="252" FontSize="24"/>
+        <Label Content="    Altura do Meteoro" HorizontalAlignment="Center" Margin="0,47,0,0" VerticalAlignment="Top" Width="252" FontSize="24" Background="Transparent" Foreground="#FFFF00DE" FontWeight="Bold"/>
         <Button Content="3000" HorizontalAlignment="Center" Margin="0,182,0,0" VerticalAlignment="Top" Height="45" Width="128" Click="Button_Click_1"/>
         <Button Content="2000" HorizontalAlignment="Center" Margin="0,260,0,0" VerticalAlignment="Top" Height="45" Width="128" Click="Button_Click_2"/>
         <Button Content="1000" HorizontalAlignment="Center" Margin="0,334,0,0" VerticalAlignment="Top" Height="45" Width="128" Click="Button_Click_3"/>
