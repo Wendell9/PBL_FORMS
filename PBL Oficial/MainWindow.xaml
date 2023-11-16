@@ -12,6 +12,7 @@
         <Button Content="3000" HorizontalAlignment="Center" Margin="0,182,0,0" VerticalAlignment="Top" Height="45" Width="128" Click="Button_Click_1"/>
         <Button Content="2000" HorizontalAlignment="Center" Margin="0,260,0,0" VerticalAlignment="Top" Height="45" Width="128" Click="Button_Click_2"/>
         <Button Content="1000" HorizontalAlignment="Center" Margin="0,334,0,0" VerticalAlignment="Top" Height="45" Width="128" Click="Button_Click_3"/>
+        <Button Content="Voltar" HorizontalAlignment="Left" Margin="52,334,0,0" VerticalAlignment="Top" Height="42" Width="85" Click="Button_Click_4"/>
 
     </Grid>
 </Window>

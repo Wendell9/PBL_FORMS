@@ -190,3 +190,5 @@ C:\Users\guind\Downloads\PBL_FORMS\PBL Oficial\obj\Debug\net6.0-windows\Consulta
 C:\Users\guind\Downloads\PBL_FORMS\PBL Oficial\obj\Debug\net6.0-windows\Consultar.baml
 C:\Users\guind\Downloads\PBL_FORMS\PBL Oficial\obj\Debug\net6.0-windows\Inicio.g.cs
 C:\Users\guind\Downloads\PBL_FORMS\PBL Oficial\obj\Debug\net6.0-windows\Inicio.baml
+C:\Users\guind\Downloads\PBL_FORMS\PBL Oficial\obj\Debug\net6.0-windows\AlertaLimpeza.g.cs
+C:\Users\guind\Downloads\PBL_FORMS\PBL Oficial\obj\Debug\net6.0-windows\AlertaLimpeza.baml

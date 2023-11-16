@@ -52,5 +52,11 @@ namespace PBL_Oficial
             i.Show();
             this.Close();
         }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            AlertaLimpeza a=new AlertaLimpeza();
+            a.Show();
+        }
     }
 }

@@ -166,6 +166,13 @@ namespace PBL_Oficial
             }
 
         }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            Canhao c = new Canhao(Meteoro1.DistanciaDoCanhao);
+            c.Show();
+            this.Close();
+        }
     }
 }
 

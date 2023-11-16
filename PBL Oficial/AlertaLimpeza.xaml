@@ -1,0 +1,16 @@
+﻿<Window x:Class="PBL_Oficial.AlertaLimpeza"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PBL_Oficial"
+        mc:Ignorable="d"
+        Title="AlertaLimpeza" Height="189" Width="314">
+    <Grid Margin="0,0,0,-6">
+        <Label Content="Tem Certeza que deseja limpar os dados?" HorizontalAlignment="Center" Margin="0,36,0,0" VerticalAlignment="Top"/>
+        <Button Content="Sim" HorizontalAlignment="Left" Margin="43,106,0,0" VerticalAlignment="Top" Height="38" Width="79" Click="Button_Click"/>
+        <Button Content="Não" HorizontalAlignment="Left" Margin="195,106,0,0" VerticalAlignment="Top" Height="38" Width="76" Click="Button_Click_1"/>
+
+
+    </Grid>
+</Window>

@@ -52,5 +52,12 @@ namespace PBL_Oficial
             canhao.Show();
             this.Close();
         }
+
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+            Inicio inicio = new Inicio();
+            inicio.Show(); 
+            this.Close();
+        }
     }
 }

@@ -10,6 +10,7 @@
         <Button Content="Consultar" HorizontalAlignment="Left" Margin="139,327,0,0" VerticalAlignment="Top" Height="63" Width="123" Click="Button_Click"/>
         <Button Content="Voltar" HorizontalAlignment="Left" Margin="547,327,0,0" VerticalAlignment="Top" Height="63" Width="116" Click="Button_Click_1"/>
         <DataGrid x:Name="dataGrid" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="146,23,146,125" SelectionChanged="DataGrid_SelectionChanged_1"/>
+        <Button Content="Limpar" HorizontalAlignment="Center" Margin="0,327,0,0" VerticalAlignment="Top" Height="63" Width="134" Click="Button_Click_2"/>
 
     </Grid>
 </Window>

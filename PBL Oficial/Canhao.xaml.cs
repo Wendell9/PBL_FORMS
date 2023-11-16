@@ -53,5 +53,12 @@ namespace PBL_Oficial
             angulo.Show();
             this.Close();
         }
+
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+            MainWindow m= new MainWindow();
+            m.Show();
+            this.Close();
+        }
     }
 }

@@ -37,6 +37,23 @@ namespace PBL_Oficial.ConexaoBD
             string query = $"sp_InserirAcerto @canhaoID,@meteoroID,@angulo,@velocidade,@tempo";
 
         }
+        public static void LimparDados()
+        {
+            Conexao conexao = new Conexao();
+            SqlConnection con = conexao.Conectar();
+
+
+            if (con.State == System.Data.ConnectionState.Open)
+            {
+                string queryy = $"exec sp_limparDados";
+
+                using (SqlCommand command = new SqlCommand(queryy, con))
+                {
+                    command.ExecuteNonQuery();
+                }
+            }
+            con = conexao.Desconectar();
+        }
 
         public static DataTable select()
         {
