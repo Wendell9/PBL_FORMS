@@ -60,7 +60,6 @@ namespace PBL_Oficial
             if (Math.Abs(alturaMet - alturaProj) < 1 && tempo > 0 && alturaMet > 0)
             {
                 Projetil1 = new Projetil(angulo, vo);
-                MessageBox.Show($"O alvo foi acertado no ponto {alturaProj}, no instante {tempo} com velocidade inicial igual a {vo}");
                 Animacao animacao = new Animacao(tempo, Meteoro1.AlturaInicial, alturaMet, Meteoro1.DistanciaDoCanhao, vo, angulo);
                 animacao.Show();
                 this.Close();
@@ -77,8 +76,7 @@ namespace PBL_Oficial
             vo = vetorResposta[3];
 
             if (Math.Abs(alturaMet - alturaProj) < 1 && tempo > 0 && alturaMet > 0)
-            {
-                MessageBox.Show($"O alvo foi acertado na altura {alturaProj}, no instante {tempo} com velocidade inicial igual a {vo}");
+            { 
                 Animacao animacao = new Animacao(tempo, Meteoro1.AlturaInicial, alturaMet, Meteoro1.DistanciaDoCanhao, vo, angulo);
                 animacao.Show();
                 this.Close();
@@ -120,7 +118,7 @@ namespace PBL_Oficial
 
                     if (contaerros > 0)
                     {
-                        rangeDoAngulo[0] = i;
+                        rangeDoAngulo[0] = i-1;
                         break;
                     }
                 }
@@ -164,7 +162,7 @@ namespace PBL_Oficial
                         break;
                     }
                 }
-                MessageBox.Show($"Para acertar o alvo o ângulo deve estar entre {rangeDoAngulo[0]}° e {rangeDoAngulo[1]}");
+                MessageBox.Show($"Para acertar o alvo o ângulo deve estar entre {rangeDoAngulo[0]}° e {rangeDoAngulo[1]}°");
             }
 
         }

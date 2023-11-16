@@ -186,3 +186,7 @@ C:\Users\guind\Downloads\PBL_FORMS\PBL Oficial\bin\Debug\net6.0-windows\runtimes
 C:\Users\guind\Downloads\PBL_FORMS\PBL Oficial\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
 C:\Users\guind\Downloads\PBL_FORMS\PBL Oficial\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\guind\Downloads\PBL_FORMS\PBL Oficial\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\guind\Downloads\PBL_FORMS\PBL Oficial\obj\Debug\net6.0-windows\Consultar.g.cs
+C:\Users\guind\Downloads\PBL_FORMS\PBL Oficial\obj\Debug\net6.0-windows\Consultar.baml
+C:\Users\guind\Downloads\PBL_FORMS\PBL Oficial\obj\Debug\net6.0-windows\Inicio.g.cs
+C:\Users\guind\Downloads\PBL_FORMS\PBL Oficial\obj\Debug\net6.0-windows\Inicio.baml

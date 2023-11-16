@@ -25,11 +25,13 @@ namespace PBL_Oficial
         private LineSeries tracejadobola;
         private LineSeries tracejadoprojetil;
         private Projetil Projetil;
+        private double TempoAcerto;
 
 
-        public Animacao(double tempo,double alturaMeteoro,double alturaImpacto,double DistanciaCanhao, double vo, double angulo)
+        public Animacao(double tempo, double alturaMeteoro, double alturaImpacto, double DistanciaCanhao, double vo, double angulo)
         {
-        InitializeComponent();
+            InitializeComponent();
+            TempoAcerto = tempo;
             Projetil = new Projetil(vo, angulo);
             // Configura o modelo do gráfico
             model = new PlotModel { Title = "Gráfico X e Y" };
@@ -45,7 +47,7 @@ namespace PBL_Oficial
             series = new LineSeries();
             model.Series.Add(series);
 
-   
+
             tracejadobola = new LineSeries
             {
                 StrokeThickness = 1,
@@ -105,14 +107,14 @@ namespace PBL_Oficial
             plotView.Model = model;
 
             Projetil = new Projetil(vo, angulo);
-            Acerto a = new Acerto(Projetil, alturaImpacto, tempo,this,DistanciaCanhao,angulo);
+            Acerto a = new Acerto(Projetil, alturaImpacto, tempo, this, DistanciaCanhao, angulo);
 
-            Executa_Animacao(tempo,alturaMeteoro,alturaImpacto,DistanciaCanhao,Projetil,a);
+            Executa_Animacao(tempo, alturaMeteoro, alturaImpacto, DistanciaCanhao, Projetil, a);
 
 
         }
 
-        private async void Executa_Animacao(double tempo, double alturaMeteoro, double alturaImpacto, double DistanciaCanhao,Projetil p,Acerto a)
+        private async void Executa_Animacao(double tempo, double alturaMeteoro, double alturaImpacto, double DistanciaCanhao, Projetil p, Acerto a)
         {
             AnimateProjectile(tempo, alturaMeteoro, alturaImpacto, DistanciaCanhao);
             AnimateBall(tempo, alturaMeteoro, alturaImpacto);
@@ -127,10 +129,10 @@ namespace PBL_Oficial
             this.Close();
         }
 
-        private async Task AbrirJanela(Projetil p,Acerto a,double tempo)
+        private async Task AbrirJanela(Projetil p, Acerto a, double tempo)
         {
             int tempoInt = (int)tempo;
-            await Task.Delay(1000*(tempoInt));
+            await Task.Delay(1000 * (tempoInt));
             a.Show();
         }
 
@@ -147,21 +149,22 @@ namespace PBL_Oficial
 
             while (projectilePositionX < targetX || projectilePositionY < targetY)
             {
-                
+
 
                 //Cálculo para movimentar projétil
                 double progress = (DateTime.Now - startTime).TotalSeconds / fallDurationMs;
                 double segundos = (DateTime.Now - startTime).TotalSeconds;
-                projectilePositionX = initialX + (Projetil.Vox)*segundos;
-                projectilePositionY = initialY + (Projetil.Voy) * segundos - 4.9*Math.Pow(segundos,2);
+                projectilePositionX = initialX + (Projetil.Vox) * segundos;
+                projectilePositionY = initialY + (Projetil.Voy) * segundos - 4.9 * Math.Pow(segundos, 2);
                 tracejadoprojetil.Points.Add(new DataPoint(projectilePositionX, projectilePositionY));
 
 
                 // Verificar se o projetil atingiu as coordenadas desejadas
-                if (segundos>=tempo)
+                if (segundos >= tempo)
                 {
                     projectilePositionX = targetX;
                     projectilePositionY = targetY;
+                    UpdateTimer((DateTime.Now - startTime).TotalSeconds);
                     break; // Interrompe a animação do projetil quando atinge as coordenadas desejadas
                 }
 
@@ -188,7 +191,7 @@ namespace PBL_Oficial
             {
                 double progress = (DateTime.Now - startTime).TotalSeconds / animationDurationMs;
                 ballPositionY = initialY - (50) * (DateTime.Now - startTime).TotalSeconds;
-                
+
 
 
                 // Verificar se a bola atingiu ou ultrapassou a posição final desejada
@@ -207,12 +210,15 @@ namespace PBL_Oficial
             }
         }
         private async void UpdateTimer(double tempo)
-        {                
-                timerAnnotation.Text = $"Tempo: {tempo.ToString("F2")}s";
-                Dispatcher.Invoke(() => plotView.InvalidatePlot());
-                await Task.Delay(16);     
+        {
+            if (TempoAcerto < tempo)
+            {
+                tempo = TempoAcerto;
+            }
+            timerAnnotation.Text = $"Tempo: {tempo.ToString("F2")}s";
+            Dispatcher.Invoke(() => plotView.InvalidatePlot());
         }
 
     }
 }
-    
+

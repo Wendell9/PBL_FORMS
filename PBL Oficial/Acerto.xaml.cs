@@ -26,7 +26,7 @@ namespace PBL_Oficial
             VelocidadeInicial.Content = $"Velocidade Inicial: {projetil.VelocidadeInicial}";
             Altura_intercepta.Content = $"O meteoro é interceptado na altura: {altura}";
             animacao1 = animacao;
-            if (projetil.AlturaMaximaProjetil<altura && (projetil.Vox*tempo)<distancia)
+            if (altura<projetil.AlturaMaximaProjetil)
             {
                 Ponto_Do_Movimeto.Content = $"O movimento do projétil no instante {tempo.ToString("F2")} é ascendente";
             }
@@ -65,7 +65,7 @@ namespace PBL_Oficial
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow janelaprincipal = new MainWindow();
+            Inicio janelaprincipal = new Inicio();
             janelaprincipal.Show();
             this.Close();
             animacao1.Close();

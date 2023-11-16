@@ -1,0 +1,15 @@
+﻿<Window x:Class="PBL_Oficial.Consultar"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PBL_Oficial"
+        mc:Ignorable="d"
+        Title="Consultar" Height="450" Width="800">
+    <Grid>
+        <Button Content="Consultar" HorizontalAlignment="Left" Margin="139,327,0,0" VerticalAlignment="Top" Height="63" Width="123" Click="Button_Click"/>
+        <Button Content="Voltar" HorizontalAlignment="Left" Margin="547,327,0,0" VerticalAlignment="Top" Height="63" Width="116" Click="Button_Click_1"/>
+        <DataGrid x:Name="dataGrid" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="146,23,146,125" SelectionChanged="DataGrid_SelectionChanged_1"/>
+
+    </Grid>
+</Window>
