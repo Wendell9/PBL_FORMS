@@ -10,7 +10,7 @@ namespace PBL_Oficial.ConexaoBD
 {
     public static class ComandosBD
     {
-        public static void conecta(int canhaoID, int MeteoroID, double angulo, double velocidade, double tempo)
+        public static void InserirAcerto(int canhaoID, int MeteoroID, double angulo, double velocidade, double tempo)
         {
             Conexao conexao = new Conexao();
             SqlConnection con = conexao.Conectar();

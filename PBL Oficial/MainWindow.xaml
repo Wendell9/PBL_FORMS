@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Image Name="Fundo" HorizontalAlignment="Left" Height="473" VerticalAlignment="Top" Width="1008" Source="/885542.png" Margin="-30,-14,0,0"/>
+        <Image Name="Fundo" HorizontalAlignment="Left" Height="473" VerticalAlignment="Top" Width="1008" Source="/Fundo.png" Margin="-30,-14,0,0"/>
 
         <Button Content="4000" HorizontalAlignment="Center" Margin="0,111,0,0" VerticalAlignment="Top" Click="Button_Click" Height="41" Width="128"/>
         <Label Content="    Altura do Meteoro" HorizontalAlignment="Center" Margin="0,47,0,0" VerticalAlignment="Top" Width="252" FontSize="24" Background="Transparent" Foreground="#FFFF00DE" FontWeight="Bold"/>

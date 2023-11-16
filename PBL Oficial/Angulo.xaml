@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Angulo" Height="450" Width="800">
     <Grid>
-        <Image Height="473" Width="1008" Source="/885542.png" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <Image Height="473" Width="1008" Source="/Fundo.png" HorizontalAlignment="Left" VerticalAlignment="Top"/>
 
         <Label Content="Ângulo de inclinação" HorizontalAlignment="Center" Margin="0,82,0,0" VerticalAlignment="Top" Height="77" Width="486" FontSize="48" FontWeight="Bold" Foreground="#FFFF00DE"/>
         <TextBox x:Name="TEXTBOXANGULO" HorizontalAlignment="Left" Margin="271,177,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="169" Height="39" TextChanged="TextBox_TextChanged"/>

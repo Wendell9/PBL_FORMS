@@ -10,7 +10,7 @@
 
         <Canvas HorizontalAlignment="Left" VerticalAlignment="Top">
 
-            <Image Height="473" Width="1008" Source="/885542.png" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <Image Height="473" Width="1008" Source="/Fundo.png" HorizontalAlignment="Left" VerticalAlignment="Top"/>
 
         </Canvas>
 

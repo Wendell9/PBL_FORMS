@@ -37,7 +37,6 @@ namespace PBL_Oficial
 
             DataTable tabela = ComandosBD.select();
             dataGrid.ItemsSource = tabela.DefaultView;
-            SqlDataAdapter adapter = new SqlDataAdapter();
 
         }
 

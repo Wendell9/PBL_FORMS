@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PBL_Oficial.ConexaoBD;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -60,7 +61,7 @@ namespace PBL_Oficial
                     idCanhao = 4; break;
             }
 
-            ConectaBD.conecta(idCanhao, idMeteoro,angulo,projetil.VelocidadeInicial,tempo);
+            ComandosBD.InserirAcerto(idCanhao, idMeteoro,angulo,projetil.VelocidadeInicial,tempo);
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
