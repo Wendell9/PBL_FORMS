@@ -1,4 +1,5 @@
-﻿using OxyPlot;
+﻿// Bibliotecas 
+using OxyPlot;
 using OxyPlot.Annotations;
 using OxyPlot.Axes;
 using OxyPlot.Series;
@@ -11,6 +12,7 @@ namespace PBL_Oficial
 
     public partial class Animacao : Window
     {
+        // Variávies usadas na animação
         private PlotModel model;
         private LineSeries series;
         private EllipseAnnotation ball;
@@ -44,10 +46,11 @@ namespace PBL_Oficial
             var yAxis = new LinearAxis { Position = AxisPosition.Left, Minimum = 0, Maximum = 6000 };
             model.Axes.Add(yAxis);
 
+            // Adiciona os eixos ao modelo gráfico
             series = new LineSeries();
             model.Series.Add(series);
 
-
+            // Adiciona linha tracejada para a rota do meteoro
             tracejadobola = new LineSeries
             {
                 StrokeThickness = 1,
@@ -56,7 +59,7 @@ namespace PBL_Oficial
             };
             model.Series.Add(tracejadobola);
 
-            // Adicionar linha tracejada para a rota do projétil
+            // Adiciona linha tracejada para a rota do projétil
             tracejadoprojetil = new LineSeries
             {
                 StrokeThickness = 1,
@@ -65,9 +68,11 @@ namespace PBL_Oficial
             };
             model.Series.Add(tracejadoprojetil);
 
-            // Configura a posição inicial da bola
+            // Configura a posição inicial do meteoro
             ballPositionX = DistanciaCanhao;
             ballPositionY = alturaMeteoro;
+
+            // Define dimensões do meteoro
             ball = new EllipseAnnotation
             {
                 X = ballPositionX,
@@ -82,6 +87,8 @@ namespace PBL_Oficial
             // Configurar a posição inicial do projetil (x100)
             projectilePositionX = 0;
             projectilePositionY = 0;
+
+            // Define dimensões do projétil
             projectile = new EllipseAnnotation
             {
                 X = projectilePositionX,
@@ -93,6 +100,7 @@ namespace PBL_Oficial
             };
             model.Annotations.Add(projectile);
 
+            //Definição do cronômetro
             timerAnnotation = new TextAnnotation
             {
                 TextPosition = new DataPoint(3000, 5000), // Posição inicial
@@ -135,16 +143,18 @@ namespace PBL_Oficial
         {
             int tempoInt = (int)tempo;
             //A janela acerto é aberta após o tempo que demora pra ocorrer o impacto mais 1,5 segundos
-            await Task.Delay(1000 * (tempoInt)+1500);
+            await Task.Delay(1000 * (tempoInt) + 1500);
             a.Show();
         }
 
         private async void AnimateProjectile(double tempo, double alturaMeteoro, double alturaImpacto, double DistanciaCanhao)
         {
+            //Definição de posição inicial e final do projétil
             double initialX = projectilePositionX;
             double initialY = projectilePositionY;
             double targetX = DistanciaCanhao;
             double targetY = alturaImpacto;
+            //Tempo de animação
             double fallDurationMs = tempo;
             tempo = fallDurationMs;
 
@@ -171,12 +181,14 @@ namespace PBL_Oficial
                     break; // Interrompe a animação do projetil quando atinge as coordenadas desejadas
                 }
 
-                // Atualiza o trajeto e assimila ao gráfico
+                // Atualiza o trajeto
                 projectile.X = projectilePositionX;
                 projectile.Y = projectilePositionY;
 
+                //Assimila ao gráfico
                 Dispatcher.Invoke(() => plotView.InvalidatePlot());
 
+                //Delay de 16 milisegundos por atualização
                 await Task.Delay(16);
                 UpdateTimer((DateTime.Now - startTime).TotalSeconds);
             }
@@ -184,14 +196,17 @@ namespace PBL_Oficial
 
         private async void AnimateBall(double tempo, double alturaMeteoro, double alturaImpacto)
         {
-            double initialY = alturaMeteoro; // Posição inicial da bola
-            double finalY = alturaImpacto;   // Posição final da bola
+            //Definição de posição inicial e final do meteoro
+            double initialY = alturaMeteoro;
+            double finalY = alturaImpacto;
+            //Tempo de animação
             double animationDurationMs = tempo;
             DateTime startTime = DateTime.Now;
 
             double vm = (finalY - initialY) / tempo;
             while (ballPositionY > finalY)
             {
+                //Cálculo do progresso do meteoro
                 double progress = (DateTime.Now - startTime).TotalSeconds / animationDurationMs;
                 ballPositionY = initialY - (50) * (DateTime.Now - startTime).TotalSeconds;
 
