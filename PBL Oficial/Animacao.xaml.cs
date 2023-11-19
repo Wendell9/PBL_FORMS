@@ -107,6 +107,7 @@ namespace PBL_Oficial
             plotView.Model = model;
 
             Projetil = new Projetil(vo, angulo);
+            //instacia a janela acerto
             Acerto a = new Acerto(Projetil, alturaImpacto, tempo, this, DistanciaCanhao, angulo);
 
             Executa_Animacao(tempo, alturaMeteoro, alturaImpacto, DistanciaCanhao, Projetil, a);
@@ -118,8 +119,9 @@ namespace PBL_Oficial
         {
             AnimateProjectile(tempo, alturaMeteoro, alturaImpacto, DistanciaCanhao);
             AnimateBall(tempo, alturaMeteoro, alturaImpacto);
+            //o comando abrir janela abre a janela acerto após a animação ser finalizada
             await AbrirJanela(Projetil, a, tempo);
-
+            //fecha a janela de animação caso a janela acerto seja fechada
             a.Closing += JanelaSecundariaClosing;
         }
 
@@ -132,6 +134,7 @@ namespace PBL_Oficial
         private async Task AbrirJanela(Projetil p, Acerto a, double tempo)
         {
             int tempoInt = (int)tempo;
+            //A janela acerto é aberta após o tempo que demora pra ocorrer o impacto mais 1,5 segundos
             await Task.Delay(1000 * (tempoInt)+1500);
             a.Show();
         }
@@ -213,6 +216,8 @@ namespace PBL_Oficial
         {
             if (TempoAcerto < tempo)
             {
+                //esse if foi feito pois estava ocorrendo um pequena delay para o crônometro parar,
+                //dessa forma o tempo de acerto fica condizente com os calculos
                 tempo = TempoAcerto;
             }
             timerAnnotation.Text = $"Tempo: {tempo.ToString("F2")}s";

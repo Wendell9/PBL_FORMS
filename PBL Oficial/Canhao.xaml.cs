@@ -20,11 +20,15 @@ namespace PBL_Oficial
     public partial class Canhao : Window
     {
         private double AlturaMeteoro;
+        //Inicializa a classe e atribui um valor para o atributo Altura Meteoro
         public Canhao(double altura)
         {
             AlturaMeteoro = altura;
             InitializeComponent();
         }
+        //Cada botão corresponde a uma distância do canhão em relação ao meteoro, para cada opção de clique o botão
+        //irá instanciar um ângulo passando como parâmetros a altura do meteoro recebida na instanciação da classe canhão 
+        //e a respectiva distância do canhão
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {

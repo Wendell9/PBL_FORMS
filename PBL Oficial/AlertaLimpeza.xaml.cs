@@ -27,6 +27,8 @@ namespace PBL_Oficial
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            //Caso o usuario opte por sim, isso irá acionar o comando limparDados que irá limpar os dados de acerto
+            //da tabela Acertos no Banco de dados
             ComandosBD.LimparDados();
             this.Close();
 
@@ -34,7 +36,9 @@ namespace PBL_Oficial
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
+            //Caso se opte por não, é instanciada uma janela consultar para retornar o usuario a janela anterior
             Consultar consultar = new Consultar();
+            //Essa janela é fechada
             this.Close();
         }
     }

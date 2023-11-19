@@ -26,6 +26,7 @@ namespace PBL_Oficial
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            //cria uma pagina de consultar e faz com que essa pagina apareça, enquanto a pagina de inicio é fechada
             Consultar consultar = new Consultar();
             consultar.Show();
             this.Close();
@@ -33,7 +34,9 @@ namespace PBL_Oficial
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            MainWindow m= new MainWindow();
+            //cria uma pagina de MainWindow, em que a altura do meteoro é escolhida, e
+            //faz com que essa pagina apareça, enquanto a pagina de inicio é fechada
+            MainWindow m = new MainWindow();
             m.Show();
             this.Close();
         }

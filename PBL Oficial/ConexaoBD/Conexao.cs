@@ -7,31 +7,37 @@ using System.Threading.Tasks;
 
 namespace PBL_Oficial.ConexaoBD
 {
-        public class Conexao
+    /// Classe responsável por gerenciar a conexão com o banco de dados.
+    public class Conexao
+    {
+
+        SqlConnection con = new SqlConnection();
+        /// Construtor da classe Conexao. Define a string de conexão com o banco de dados.
+        public Conexao()
         {
-            SqlConnection con = new SqlConnection();
-            public Conexao()
-            {
-                con.ConnectionString = "Data Source=DESKTOP-UOHE1VE\\SQLSERVER2022;Initial Catalog=pbl_bd;Integrated Security=True;User ID=sa;Password=123456";
-            }
+            con.ConnectionString = "Data Source=DESKTOP-UOHE1VE\\SQLSERVER2022;Initial Catalog=pbl_bb;Integrated Security=True;User ID=sa;Password=123456";
+        }
 
-            public SqlConnection Conectar()
+        /// Estabelece a conexão com o banco de dados, se estiver fechada.
+        /// Objeto SqlConnection representando a conexão.
+        public SqlConnection Conectar()
+        {
+            if (con.State == System.Data.ConnectionState.Closed)
             {
-                if (con.State == System.Data.ConnectionState.Closed)
-                {
-                    con.Open();
-                }
-                return con;
+                con.Open();
             }
-
-            public SqlConnection Desconectar()
+            return con;
+        }
+        /// Fecha a conexão com o banco de dados, se estiver aberta.
+        /// Objeto SqlConnection representando a conexão.
+        public SqlConnection Desconectar()
+        {
+            if (con.State == System.Data.ConnectionState.Open)
             {
-                if (con.State == System.Data.ConnectionState.Open)
-                {
-                    con.Close();
-                }
-                return con;
+                con.Close();
             }
+            return con;
         }
     }
+}
 

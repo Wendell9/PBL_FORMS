@@ -24,35 +24,45 @@ namespace PBL_Oficial
         {
             InitializeComponent();
         }
-
+        /// Manipula o clique no primeiro botão.
+        /// Cria uma instância de Canhao com um valor de 4000.0, valor do botão, e exibe a janela Canhao.
+        /// Fecha a janela atual.
         private void Button_Click(object sender, RoutedEventArgs e)
         {
          Canhao canhao=new Canhao(4000.0);
          canhao.Show();
          this.Close();
         }
-
+        /// Manipula o clique no segundo botão.
+        /// Cria uma instância de Canhao com um valor de 3000.0 e exibe a janela Canhao.
+        /// Fecha a janela atual.
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             Canhao canhao = new Canhao(3000.0);
             canhao.Show();
             this.Close();
         }
-
+        /// Manipula o clique no terceiro botão.
+        /// Cria uma instância de Canhao com um valor de 2000.0 e exibe a janela Canhao.
+        /// Fecha a janela atual.
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
             Canhao canhao = new Canhao(2000.0);
             canhao.Show();
             this.Close();
         }
-
+        /// Manipula o clique no quarto botão.
+        /// Cria uma instância de Canhao com um valor de 1000.0 e exibe a janela Canhao.
+        /// Fecha a janela atual.
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
             Canhao canhao = new Canhao(1000.0);
             canhao.Show();
             this.Close();
         }
-
+        /// Manipula o clique no quinto botão.
+        /// Cria uma instância de Inicio e exibe a janela Inicio.
+        /// Fecha a janela atual.
         private void Button_Click_4(object sender, RoutedEventArgs e)
         {
             Inicio inicio = new Inicio();

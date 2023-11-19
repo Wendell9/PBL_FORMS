@@ -24,10 +24,17 @@ namespace PBL_Oficial
         public Acerto(Projetil projetil,double altura,double tempo,Animacao animacao,double distancia,double angulo)
         {
             InitializeComponent();
+            //O objetivo dessa parte é demonstrar para o usuario os dados de acerto, sendo eles velocidade inicial e altura de impacto
             VelocidadeInicial.Content = $"Velocidade Inicial: {projetil.VelocidadeInicial}";
             Altura_intercepta.Content = $"O meteoro é interceptado na altura: {altura}";
             animacao1 = animacao;
-            if (altura<projetil.AlturaMaximaProjetil && projetil.Vox*tempo<distancia)
+            //Aqui é avaliado se o movimento do projetil está em fase ascendente ou descendente. É calculado o tempo
+            //para se atingr a altura máxima do projetil na variavel "tempoPontoMaximo", caso o tempo de impacto do
+            //tempo seja menor que tempoPontoMaximo , o movimento é ascendente. Caso contrário é descendente. 
+            double tempoPontoMaximo;
+            //para descobir tempoPontoMaximo é dividido a altura maxima pela velocidade do projetil em voy
+            tempoPontoMaximo = projetil.AlturaMaximaProjetil / projetil.Voy;
+            if (tempo<tempoPontoMaximo)
             {
                 Ponto_Do_Movimeto.Content = $"O movimento do projétil no instante {tempo.ToString("F2")} é ascendente";
             }
@@ -37,6 +44,8 @@ namespace PBL_Oficial
             }
             int idMeteoro;
             int idCanhao;
+            //aqui foi instanciado um switch case para traduzir as alturas e distâncias do meteoro para seus respectivos ids
+            //no banco de dados.
             switch  (altura)
             {
                 case 4000:
@@ -60,6 +69,7 @@ namespace PBL_Oficial
                 default:
                     idCanhao = 4; break;
             }
+            //Aqui é chamado o comando inseriracerto para inserir os dados na tabela acerto
 
             ComandosBD.InserirAcerto(idCanhao, idMeteoro,angulo,projetil.VelocidadeInicial,tempo);
         }
@@ -68,6 +78,8 @@ namespace PBL_Oficial
         {
             Inicio janelaprincipal = new Inicio();
             janelaprincipal.Show();
+            //Caso o usuario opte pela opção tentar novamente, é instanciada uma janela principal,
+            //de modo que a janela acerto desaparece
             this.Close();
             animacao1.Close();
         }

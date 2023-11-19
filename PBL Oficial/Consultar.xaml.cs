@@ -34,7 +34,8 @@ namespace PBL_Oficial
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-
+            //Recebe um DataTable por meio do método ComandosBD.select(). Essa tabela em questão
+            //demonstra os testes bem sucedidos adicionados no banco de dados
             DataTable tabela = ComandosBD.select();
             dataGrid.ItemsSource = tabela.DefaultView;
 
@@ -47,6 +48,7 @@ namespace PBL_Oficial
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
+            //É um botão de voltar que instancia uma janela inicio, a mostra e fecha a janela atual
             Inicio i = new Inicio();
             i.Show();
             this.Close();
@@ -54,6 +56,7 @@ namespace PBL_Oficial
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
+            //Instancia a janela alertaLimpeza e a mostra
             AlertaLimpeza a=new AlertaLimpeza();
             a.Show();
         }
