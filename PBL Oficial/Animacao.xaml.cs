@@ -116,7 +116,7 @@ namespace PBL_Oficial
 
             Projetil = new Projetil(vo, angulo);
             //instacia a janela acerto
-            Acerto a = new Acerto(Projetil, alturaImpacto, tempo, this, DistanciaCanhao, angulo);
+            Acerto a = new Acerto(Projetil, alturaImpacto, tempo, this, DistanciaCanhao, angulo,alturaMeteoro);
 
             Executa_Animacao(tempo, alturaMeteoro, alturaImpacto, DistanciaCanhao, Projetil, a);
 

@@ -21,12 +21,12 @@ namespace PBL_Oficial
     public partial class Acerto : Window
     {
         Animacao animacao1;
-        public Acerto(Projetil projetil,double altura,double tempo,Animacao animacao,double distancia,double angulo)
+        public Acerto(Projetil projetil,double alturaImpacto,double tempo,Animacao animacao,double distancia,double angulo,double alturaMeteoro)
         {
             InitializeComponent();
             //O objetivo dessa parte é demonstrar para o usuario os dados de acerto, sendo eles velocidade inicial e altura de impacto
             VelocidadeInicial.Content = $"Velocidade Inicial: {projetil.VelocidadeInicial}";
-            Altura_intercepta.Content = $"O meteoro é interceptado na altura: {altura}";
+            Altura_intercepta.Content = $"O meteoro é interceptado na altura: {alturaImpacto}";
             animacao1 = animacao;
             //Aqui é avaliado se o movimento do projetil está em fase ascendente ou descendente. É calculado o tempo
             //para se atingr a altura máxima do projetil na variavel "tempoPontoMaximo", caso o tempo de impacto do
@@ -46,7 +46,7 @@ namespace PBL_Oficial
             int idCanhao;
             //aqui foi instanciado um switch case para traduzir as alturas e distâncias do meteoro para seus respectivos ids
             //no banco de dados.
-            switch  (altura)
+            switch  (alturaMeteoro)
             {
                 case 4000:
                     idMeteoro = 1; break;
