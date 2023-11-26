@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
 using System.Data;
+using System.Windows;
 
 namespace PBL_Oficial.ConexaoBD
 {
@@ -13,35 +14,46 @@ namespace PBL_Oficial.ConexaoBD
         /// Insere um registro de acerto no banco de dados.
         public static void InserirAcerto(int canhaoID, int MeteoroID, double angulo, double velocidade, double tempo)
         {
+
             //É instanciada uma classe conexão. Dentro dessa classe será possivel chamar métodos para 
             //abrir e fechar a conexão
             Conexao conexao = new Conexao();
             SqlConnection con = conexao.Conectar();
 
-
-            if (con.State == System.Data.ConnectionState.Open)
+            try
             {
-                //caso o estado de conexão esteja aberto, é declarado o comando para executar uma procedure
-                //dentro do banco de dados
-                string queryy = $"exec sp_InserirAcerto @canhaoID,@meteoroID,@angulo,@velocidade,@tempo";
-
-                using (SqlCommand command = new SqlCommand(queryy, con))
+                if (con.State == System.Data.ConnectionState.Open)
                 {
-                //aqui é utilizado o command que recebe como parâmetros o comando instanciado e 
-                    //a conexão com o banco de dados
-                    //adicionando parametros
-                    command.Parameters.AddWithValue("@canhaoID", canhaoID);
-                    command.Parameters.AddWithValue("@meteoroID", MeteoroID);
-                    command.Parameters.AddWithValue("@angulo", angulo);
-                    command.Parameters.AddWithValue("@velocidade", velocidade);
-                    command.Parameters.AddWithValue("@tempo", tempo);
+                    //caso o estado de conexão esteja aberto, é declarado o comando para executar uma procedure
+                    //dentro do banco de dados
+                    string queryy = $"exec sp_InserirAcerto @canhaoID,@meteoroID,@angulo,@velocidade,@tempo";
 
-                    command.ExecuteNonQuery();
-                    //Aqui o comando é executado
+                    using (SqlCommand command = new SqlCommand(queryy, con))
+                    {
+                        //aqui é utilizado o command que recebe como parâmetros o comando instanciado e 
+                        //a conexão com o banco de dados
+                        //adicionando parametros
+                        command.Parameters.AddWithValue("@canhaoID", canhaoID);
+                        command.Parameters.AddWithValue("@meteoroID", MeteoroID);
+                        command.Parameters.AddWithValue("@angulo", angulo);
+                        command.Parameters.AddWithValue("@velocidade", velocidade);
+                        command.Parameters.AddWithValue("@tempo", tempo);
+
+                        command.ExecuteNonQuery();
+                        //Aqui o comando é executado
+                    }
                 }
+                con = conexao.Desconectar();
+                //A conexão com o banco de dados é fechada pelo método Desconectar dentro da classe conexão
             }
-            con =conexao.Desconectar();
-            //A conexão com o banco de dados é fechada pelo método Desconectar dentro da classe conexão
+            catch (Exception e)
+            {
+                MessageBox.Show(e.Message);
+            }
+            finally
+            {
+                con = conexao.Desconectar();
+            }
         }
 
         /// <summary>
@@ -51,24 +63,35 @@ namespace PBL_Oficial.ConexaoBD
         {
             Conexao conexao = new Conexao();
             SqlConnection con = conexao.Conectar();
-
-
-            if (con.State == System.Data.ConnectionState.Open)
+            try
             {
-                //caso o estado de conexão esteja aberto, é declarado o comando para executar uma procedure
-                //dentro do banco de dados
-                string queryy = $"exec sp_limparDados";
 
-                using (SqlCommand command = new SqlCommand(queryy, con))
+
+                if (con.State == System.Data.ConnectionState.Open)
                 {
-                    command.ExecuteNonQuery();
-                    //aqui é utilizado o command que recebe como parâmetros o comando instanciado e 
-                    //a conexão com o banco de dados
-                    //adicionando parametros
+                    //caso o estado de conexão esteja aberto, é declarado o comando para executar uma procedure
+                    //dentro do banco de dados
+                    string queryy = $"exec sp_limparDados";
+
+                    using (SqlCommand command = new SqlCommand(queryy, con))
+                    {
+                        command.ExecuteNonQuery();
+                        //aqui é utilizado o command que recebe como parâmetros o comando instanciado e 
+                        //a conexão com o banco de dados
+                        //adicionando parametros
+                    }
                 }
+                con = conexao.Desconectar();
+                //A conexão com o banco de dados é fechada pelo método Desconectar dentro da classe conexão
             }
-            con = conexao.Desconectar();
-            //A conexão com o banco de dados é fechada pelo método Desconectar dentro da classe conexão
+            catch (Exception e)
+            {
+                MessageBox.Show(e.Message);
+            }
+            finally
+            {
+                con = conexao.Desconectar();
+            }
         }
 
         /// <summary>
@@ -77,6 +100,7 @@ namespace PBL_Oficial.ConexaoBD
         /// <returns>DataTable contendo os resultados da consulta.</returns>
         public static DataTable select()
         {
+
             Conexao conexao = new Conexao();
             SqlConnection con = conexao.Conectar();
             DataTable tabela = new DataTable();
